@@ -29953,7 +29953,7 @@ alq:function alq(){},
 alx:function alx(a,b,c){this.a=a
 this.b=b
 this.c=c},
-alC:function alC(){},
+alC:function alC(a){this.a=a},
 alB:function alB(){},
 alH:function alH(){},
 alJ:function alJ(a){this.a=a},
@@ -104660,61 +104660,61 @@ p=(s==null?$.cd=$.eP():s).f8(0,r)
 A.c3(p,q,!1)
 q=A.CZ(new A.dA(p))
 return q.geh(q).a.ig(0,!1)},
-eB(){return this.a_y().P(0,new A.alC(),t.Um)},
+eB(a){return this.a_y().P(0,new A.alC(a),t.Um)},
 a04(){var s=t.z
 return J.a9o(this.b.XD("auth-selectActivateAdmin").$1$1(A.u(s,s),s),new A.alH(),t.b)},
 DP(a){var s=t.O,r=A.ap(["adminId",a],s,s)
-return this.eB().P(0,new A.alJ(r),t.Dq)},
+return this.eB("cms").P(0,new A.alJ(r),t.Dq)},
 a05(a,b,c){var s=A.ap(["searchField",a,"searchValue",b,"createdAt",c],t.O,t.ub)
-return this.eB().P(0,new A.alM(s),t.b4)},
+return this.eB("cms").P(0,new A.alM(s),t.b4)},
 Mv(a){var s=t.O,r=A.ap(["userId",a],s,s)
-return this.eB().P(0,new A.am1(r),t.K9)},
+return this.eB("cms").P(0,new A.am1(r),t.K9)},
 Mw(a,b,c){var s=A.ap(["searchField",a,"searchValue",b,"createdAt",c],t.O,t.ub)
-return this.eB().P(0,new A.am4(s),t.U2)},
+return this.eB("cms").P(0,new A.am4(s),t.U2)},
 aoP(a){var s=t.O,r=A.ap(["userId",a],s,s)
-return this.eB().P(0,new A.alA(r),t.z)},
+return this.eB("cms").P(0,new A.alA(r),t.z)},
 a09(a){var s=t.O,r=A.ap(["name",a],s,s)
-return this.eB().P(0,new A.am_(r,a),t.z)},
-avE(a){return this.eB().P(0,new A.am9(a),t.z)},
+return this.eB("file").P(0,new A.am_(r,a),t.z)},
+avE(a){return this.eB("file").P(0,new A.am9(a),t.z)},
 arz(a){var s=A.ap(["email",a.e,"name",a.b,"phoneNumber",a.c,"gender",a.w,"birth",a.r,"favorites",a.x],t.O,t.ub)
-return this.eB().P(0,new A.alG(s),t.z)},
+return this.eB("cms").P(0,new A.alG(s),t.z)},
 Dl(a){var s=A.ap(["userId",a.a,"name",a.b,"phoneNumber",a.c,"gender",a.w,"birth",a.r,"favorites",a.x],t.O,t.ub)
-return this.eB().P(0,new A.amb(s),t.z)},
+return this.eB("cms").P(0,new A.amb(s),t.z)},
 avF(a,b){var s=t.O,r=A.ap(["userId",a,"status",b],s,s)
-return this.eB().P(0,new A.ama(r),t.z)},
+return this.eB("cms").P(0,new A.ama(r),t.z)},
 aru(a,b,c,d,e,f){var s=t.O,r=A.ap(["email",a,"password",b,"name",c,"phoneNumber",d,"company",e,"grade",f],s,s)
-return this.eB().P(0,new A.alD(r),t.z)},
+return this.eB("cms").P(0,new A.alD(r),t.z)},
 Dg(a){var s=t.O,r=A.ap(["adminId",a.a,"name",a.b,"phoneNumber",a.f,"company",a.r,"grade",a.w,"role",a.c],s,s)
-return this.eB().P(0,new A.am6(r),t.z)},
+return this.eB("cms").P(0,new A.am6(r),t.z)},
 aoL(a){var s=t.O,r=A.ap(["adminId",a],s,s)
-return this.eB().P(0,new A.aly(r),t.z)},
+return this.eB("cms").P(0,new A.aly(r),t.z)},
 avq(a,b){var s=t.O,r=A.ap(["adminId",a,"status",b],s,s)
-return this.eB().P(0,new A.am5(r),t.z)},
+return this.eB("cms").P(0,new A.am5(r),t.z)},
 Mt(a,b,c){var s=A.ap(["searchField",a,"searchValue",b,"createdAt",c],t.O,t.ub)
-return this.eB().P(0,new A.alR(s),t.F7)},
+return this.eB("cms").P(0,new A.alR(s),t.F7)},
 Ms(a){var s=t.O,r=A.ap(["favoriteId",a],s,s)
-return this.eB().P(0,new A.alO(r),t.j0)},
+return this.eB("cms").P(0,new A.alO(r),t.j0)},
 arw(a){var s=A.ap(["title",a.b,"url",a.c,"finishedAt",a.w,"allowResource",a.e,"finishNotifyDay",a.f],t.O,t.ub)
-return this.eB().P(0,new A.alF(s),t.z)},
+return this.eB("cms").P(0,new A.alF(s),t.z)},
 Di(a){var s=A.ap(["favoriteId",a.a,"title",a.b,"url",a.c,"finishedAt",a.w,"allowResource",a.e,"finishNotifyDay",a.f],t.O,t.ub)
-return this.eB().P(0,new A.am8(s),t.z)},
+return this.eB("cms").P(0,new A.am8(s),t.z)},
 avu(a,b){var s=t.O,r=A.ap(["favoriteId",a,"status",b],s,s)
-return this.eB().P(0,new A.am7(r),t.z)},
+return this.eB("cms").P(0,new A.am7(r),t.z)},
 arx(a,b){var s=t.O,r=A.ap(["favoriteId",a,"type",b],s,s)
-return this.eB().P(0,new A.alE(r),t.z)},
+return this.eB("cms").P(0,new A.alE(r),t.z)},
 aoN(a){var s=t.O,r=A.ap(["favoriteId",a],s,s)
-return this.eB().P(0,new A.alz(r),t.z)},
+return this.eB("cms").P(0,new A.alz(r),t.z)},
 a08(a,b,c,d){var s=A.ap(["userId",a,"favoriteId",b,"offset",c,"size",d],t.O,t.ub)
-return this.eB().P(0,new A.alY(s),t.QA)},
+return this.eB("cms").P(0,new A.alY(s),t.QA)},
 a07(a,b,c){var s=t.O,r=A.ap(["userId",a,"favoriteId",b,"name",c],s,s)
-return this.eB().P(0,new A.alV(r,c),t.z)},
+return this.eB("file").P(0,new A.alV(r,c),t.z)},
 a06(a,b){var s=t.O,r=A.ap(["userId",a,"favoriteId",b],s,s)
-return this.eB().P(0,new A.alT(r),t.Em)}}
+return this.eB("cms").P(0,new A.alT(r),t.Em)}}
 A.alC.prototype={
 $1(a){var s=new A.Tn(A.a([],t.lC),new A.Ec(),new A.Ec(),new A.Ec()),r=new A.Ry($,s,$,new A.aeL(),!1),q=A.b6c()
 r.Bf$=q
 r.WS$=new A.abE(A.aZ(t.Gf))
-q.rY$="https://asia-northeast3-snipping-395db.cloudfunctions.net/cms"
+q.rY$="https://asia-northeast3-snipping-395db.cloudfunctions.net/"+this.a
 q.sXA(0,A.ap(["Authorization",a],t.O,t.z))
 s.G(s,new A.To(new A.alB(),null,null,null))
 return A.bo(r,t.Um)},
